@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/fonts.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
     <title>Lesson 10</title>
+    <meta name="description" content="this page is footer" />
+    <meta name="keywords" content="contact" />
+    <meta name="author" content="tamar khutchua" />
   </head>
   <body>
     <header></header>
     <footer>
-      <div>
+      <div class="divleft">
         <h3>კონტაქტი</h3>
-        <p>
+        <p class="contact-text">
           Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი
           სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ
           დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
@@ -25,37 +30,62 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        <ul>
+          <li>
+            <img class="phone" src="assets/images/Group 77.svg" alt="phone" />
+            +995 555 444 333
+            <img
+              class="email"
+              src="assets/images/Group 78.svg"
+              alt="phone"
+            />example@gmail.com
+          </li>
+        </ul>
+        <p style="padding-bottom: 40px">ყველა უფლება დაცულია</p>
       </div>
-      <ul>
-        <li>
-          <img src="assets/images/Group 77.svg" alt="phone" />
-        </li>
-        <li>+995 555 444 333</li>
-        <li>
-          <img src="assets/images/Group 78.svg" alt="phone" />
-        </li>
-        <li>example@gmail.com</li>
-      </ul>
       <div class="container">
         <form action="/user" method="get">
           <div class="form-row">
-            <label for="user-name"> სახელი, გვარი </label>
-            <input type="text" name="username" id="user-name" />
+            <label for="user-name"> </label>
+            <input
+              type="text"
+              name="username"
+              placeholder="სახელი, გვარი"
+              id="user-name"
+            />
           </div>
           <div class="form-row">
-            <label for="email"> ელ. ფოსტა </label>
-            <input type="email" name="email" id="email" />
+            <label for="email"> </label>
+            <input
+              type="email"
+              name="email"
+              placeholder="ელ. ფოსტა"
+              id="email"
+            />
           </div>
           <div class="form-row">
-            <label for="phone number"> ტელეფონის ნომერი </label>
-            <input type="number" name="number" id="phone number" />
+            <label for="phone number"> </label>
+            <input
+              type="number"
+              name="number"
+              placeholder="ტელეფონის ნომერი"
+              id="phone number"
+            />
           </div>
           <div>
-            <label for="message"> შეტყობინება </label>
-            <textarea name="message" id="message"> </textarea>
+            <label for="message"> </label>
+            <textarea name="message" id="message" style="color: white">
+შეტყობინება
+            </textarea>
           </div>
           <button type="submit">გაგზავნა</button>
         </form>
+        <div class="logo">
+          <p>დამზადებულია</p>
+          <img src="assets/images/Group 73.svg" alt="love" />
+          <p>-ით</p>
+          <img src="assets/images/Group 72.png" alt="logo" />
+        </div>
       </div>
     </footer>
   </body>

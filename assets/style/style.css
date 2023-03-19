@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "HelveticaNeue bold";
+}
+footer {
+  display: flex;
+  background-color: #0a22f4;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  vertical-align: middle; /*aq texti ar gaicentra aiconis gaswvriv da sad unda gamestila da rom centrSi yofiliyo*/
+  padding-bottom: 206px;
+}
+.divleft,
+.container {
+  padding-top: 275px;
+  padding-left: 240px;
+}
+div h3 {
+  font-size: 32px;
+}
+.contact-text {
+  padding-top: 30px;
+  width: 463px;
+  font-family: "HelveticaNeue regular";
+}
+iframe {
+  width: 463px;
+  height: 197px;
+  padding-top: 58px;
+  padding-bottom: 92px;
+  border-radius: 15px;
+  box-shadow: #ffffff;
+  box-shadow: -20px; /*es mainc ar gamoivida da rogor unda iyos sworad gawerili momweret tu sheidzleba*/
+}
+.phone {
+  padding: 26px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.email {
+  padding: 22px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+input {
+  background-color: #0a22f4; /* aq placeholder rom chavsvi ver aghiqva da ratom?*/
+  border: none;
+  border-bottom: 0.05px solid white;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 18px 0;
+  box-sizing: border-box;
+}
+input :focus {
+  border: 3px solid white;
+}
+textarea {
+  width: 100%;
+  height: 140px;
+  padding: 12px 20px;
+  margin: 40px 0;
+  border: none;
+  border-bottom: 0.05px solid white;
+  background-color: #0a22f4;
+  resize: none;
+}
+::placeholder {
+  color: #ffffff;
+}
+button /*marjvniv rogor unda gamewia?*/ {
+  padding: 18px 45px;
+  background-color: #ffffff;
+  color: #171717;
+  border-radius: 28px;
+  margin-top: 40px;
+  margin-bottom: 105px;
+  font-family: "HelveticaNeue bold"; /*amit ar gaboldda da ratom?*/
+}
+.logo {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 32px;
+}
